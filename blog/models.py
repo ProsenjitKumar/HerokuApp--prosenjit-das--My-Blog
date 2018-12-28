@@ -20,7 +20,6 @@ class BlogPost(models.Model):
     category = models.ForeignKey(Blogcategory, on_delete=models.CASCADE)
     description = models.TextField()
     post_date = models.DateTimeField(auto_now_add=True)
-    image = models.ImageField(upload_to='blog_post/', blank=True)
     publish = models.BooleanField(default=True)
     slug = models.SlugField(max_length=200, unique=True)
     objects = EntryQuerySet.as_manager()
