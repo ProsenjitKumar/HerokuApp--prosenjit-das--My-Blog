@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f88859b9-42c5-431a-8ee8-102d0f0f7040" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +14,18 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/models.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="165">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -48,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="301">
@@ -74,10 +77,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/templates/blog/index.html" />
         <option value="$PROJECT_DIR$/templates/blog/base/base_blog.html" />
         <option value="$PROJECT_DIR$/templates/blog/single-post-1.html" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
       </list>
     </option>
   </component>
@@ -99,55 +102,6 @@
             <path>
               <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="ProsenjitKumar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,17 +169,17 @@
       <option name="presentableId" value="Default" />
       <updated>1545984008672</updated>
       <workItem from="1545984014220" duration="1867000" />
-      <workItem from="1545991472839" duration="1215000" />
+      <workItem from="1545991472839" duration="2213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3082000" />
+    <option name="totallyTimeSpent" value="4080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16494845" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14626288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -239,7 +193,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31897712" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32166892" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -264,19 +218,6 @@
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#315#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -306,6 +247,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="389" column="93" selection-start-line="389" selection-start-column="93" selection-end-line="389" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,9 +7,9 @@ class EntryQuerySet(models.QuerySet):
         return self.filter(publish=True)
 
 
-class Blogcategory(models.Model):
+class BlogCategory(models.Model):
     title = models.CharField(max_length=255)
-    description = models.TextField()
+    slug = models.SlugField(max_length=200, unique=True)
 
     def __str__(self):
         return self.title
