@@ -9,7 +9,6 @@ class EntryQuerySet(models.QuerySet):
 
 class BlogCategory(models.Model):
     title = models.CharField(max_length=255)
-    slug = models.SlugField(max_length=200, unique=True)
 
     def __str__(self):
         return self.title
@@ -17,7 +16,7 @@ class BlogCategory(models.Model):
 
 class BlogPost(models.Model):
     title = models.CharField(max_length=255, blank=False)
-    category = models.ForeignKey(Blogcategory, on_delete=models.CASCADE)
+    category = models.ForeignKey(BlogCategory, on_delete=models.CASCADE)
     description = models.TextField()
     post_date = models.DateTimeField(auto_now_add=True)
     publish = models.BooleanField(default=True)
