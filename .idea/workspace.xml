@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f88859b9-42c5-431a-8ee8-102d0f0f7040" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/base/base_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/base/base_blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/single-post-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/single-post-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,29 +10,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProsenjitKumar/settings.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,32 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog/base/base_blog.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/portfolio/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="389" column="95" selection-start-line="389" selection-start-column="95" selection-end-line="389" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+              <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -90,6 +60,7 @@
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/templates/blog/base/base_blog.html" />
         <option value="$PROJECT_DIR$/templates/blog/single-post-1.html" />
+        <option value="$PROJECT_DIR$/templates/portfolio/index.html" />
       </list>
     </option>
   </component>
@@ -115,20 +86,39 @@
             <path>
               <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,18 +188,18 @@
       <workItem from="1545984014220" duration="1867000" />
       <workItem from="1545991472839" duration="4139000" />
       <workItem from="1545996164835" duration="203000" />
-      <workItem from="1546064439042" duration="1149000" />
+      <workItem from="1546064439042" duration="2547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7583000" />
+    <option name="totallyTimeSpent" value="8981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15012887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17203608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -228,8 +218,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32925257" />
+      <window_info anchor="right" id="SciView" order="4" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14626288" />
@@ -272,7 +262,7 @@
     <entry file="file://$PROJECT_DIR$/blog/migrations/0001_initial.py" />
     <entry file="file://$PROJECT_DIR$/portfolio/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state>
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
@@ -297,13 +287,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProsenjitKumar/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-          <folding>
-            <element signature="e#315#335#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -314,10 +301,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
+    <entry file="file://$PROJECT_DIR$/ProsenjitKumar/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="389" column="95" selection-start-line="389" selection-start-column="95" selection-end-line="389" selection-end-column="95" />
+        <state relative-caret-position="255">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#315#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/portfolio/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/portfolio/img/mini_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/portfolio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
         </state>
       </provider>
     </entry>
