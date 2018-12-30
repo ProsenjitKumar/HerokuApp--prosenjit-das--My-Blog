@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f88859b9-42c5-431a-8ee8-102d0f0f7040" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/templates/blog/single-post-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/single-post-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/e_commerce/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/e_commerce/cart/cart.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="141" column="100" selection-start-line="141" selection-start-column="100" selection-end-line="141" selection-end-column="100" />
+            <state relative-caret-position="330">
+              <caret line="70" column="96" lean-forward="true" selection-start-line="70" selection-start-column="96" selection-end-line="70" selection-end-column="116" />
             </state>
           </provider>
         </entry>
@@ -238,12 +237,12 @@
       <workItem from="1546064439042" duration="2547000" />
       <workItem from="1546076266201" duration="7077000" />
       <workItem from="1546085922188" duration="326000" />
-      <workItem from="1546168055283" duration="3439000" />
+      <workItem from="1546168055283" duration="3952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19823000" />
+    <option name="totallyTimeSpent" value="20336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
@@ -254,7 +253,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30282637" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30282637" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,7 +262,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3176312" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3176312" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -443,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="141" column="100" selection-start-line="141" selection-start-column="100" selection-end-line="141" selection-end-column="100" />
+        <state relative-caret-position="330">
+          <caret line="70" column="96" lean-forward="true" selection-start-line="70" selection-start-column="96" selection-end-line="70" selection-end-column="116" />
         </state>
       </provider>
     </entry>
