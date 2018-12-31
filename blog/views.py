@@ -1,10 +1,11 @@
 from django.shortcuts import render
-from django.views.generic import ListView, TemplateView, DetailView
+from django.views.generic import ListView, DetailView
 from .models import BlogPost
 
 
 class BlogHomeView(ListView):
     model = BlogPost
+    paginate_by = 5
     template_name = 'blog/index.html'
 
 
