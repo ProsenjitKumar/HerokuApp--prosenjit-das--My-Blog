@@ -5,7 +5,7 @@ from .models import BlogPost
 
 class BlogHomeView(ListView):
     model = BlogPost
-    paginate_by = 5
+    paginate_by = 15
     template_name = 'blog/index.html'
 
 
