@@ -2,7 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f88859b9-42c5-431a-8ee8-102d0f0f7040" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/social-icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Prosenjit-Profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/fontAwesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/fonts/flexslider-icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/fonts/flexslider-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/fonts/flexslider-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/fonts/flexslider-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/light-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/css/templatemo-main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/about_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/author_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/author_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/eight_big_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/eight_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/fifth_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/fifth_big_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/fifth_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/first_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/first_big_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/first_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/first_service.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/fourth_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/fourth_big_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/fourth_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/mini_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/ninth_big_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/ninth_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/prosenjit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/prosenjit1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/second_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/second_big_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/second_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/second_service.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/seventh_big_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/seventh_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/sixth_big_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/sixth_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/third_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/third_big_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/img/third_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/js/datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/js/vendor/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/js/vendor/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/js/vendor/jquery-1.11.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/js/vendor/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/base/base_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/base/base_blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="75">
               <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -62,11 +135,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/portfolio/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+            <state relative-caret-position="132">
+              <caret line="21" column="96" lean-forward="true" selection-start-line="21" selection-end-line="22" />
+              <folding>
+                <element signature="e#331#365#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/blog/base/base_blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-450">
+              <caret line="21" column="79" lean-forward="true" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -85,8 +170,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -103,7 +189,6 @@
       <list>
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/blog/models.py" />
-        <option value="$PROJECT_DIR$/templates/portfolio/index.html" />
         <option value="$PROJECT_DIR$/ProsenjitKumar/settings.py" />
         <option value="$PROJECT_DIR$/e_commerce/cart/views.py" />
         <option value="$PROJECT_DIR$/e_commerce/cart/urls.py" />
@@ -114,10 +199,12 @@
         <option value="$PROJECT_DIR$/e_commerce/home/urls.py" />
         <option value="$PROJECT_DIR$/templates/e_commerce/cart/cart.html" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
-        <option value="$PROJECT_DIR$/templates/blog/base/base_blog.html" />
         <option value="$PROJECT_DIR$/templates/blog/single-post-1.html" />
-        <option value="$PROJECT_DIR$/templates/blog/index.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/templates/blog/index.html" />
+        <option value="$PROJECT_DIR$/templates/blog/base/base_blog.html" />
+        <option value="$PROJECT_DIR$/blog/static/blog/css/social-icon.css" />
+        <option value="$PROJECT_DIR$/templates/portfolio/index.html" />
       </list>
     </option>
   </component>
@@ -134,13 +221,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
@@ -153,28 +265,43 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/e_commerce" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/static/blog/images" />
       <recent name="$PROJECT_DIR$/templates/e_commerce" />
       <recent name="$PROJECT_DIR$/static/e_commerce" />
       <recent name="$PROJECT_DIR$/portfolio/static/portfolio/img" />
-      <recent name="$PROJECT_DIR$/blog/static/blog/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/e_commerce" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,17 +361,22 @@
       <workItem from="1546168055283" duration="5526000" />
       <workItem from="1546192616316" duration="2639000" />
       <workItem from="1546196755559" duration="394000" />
-      <workItem from="1546232158964" duration="3091000" />
+      <workItem from="1546232158964" duration="4578000" />
+      <workItem from="1546241862154" duration="106000" />
+      <workItem from="1546244048138" duration="113000" />
+      <workItem from="1546244754187" duration="799000" />
+      <workItem from="1546252411086" duration="6271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28034000" />
+    <option name="totallyTimeSpent" value="36810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17525773" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -258,7 +390,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31897712" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32032302" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -294,9 +426,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/migrations/0001_initial.py" />
     <entry file="file://$PROJECT_DIR$/portfolio/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -325,21 +454,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/static/portfolio/img/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/static/portfolio/img/mini_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/portfolio/img/logo.png" />
+    <entry file="file://$PROJECT_DIR$/portfolio/static/portfolio/img/mini_logo.png" />
     <entry file="file://$PROJECT_DIR$/blog/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/portfolio/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/e_commerce/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -405,6 +523,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/front-page-category.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3078">
+          <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/common-js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/common-js/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="4678" column="35" lean-forward="true" selection-start-line="4678" selection-start-column="35" selection-end-line="4678" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/common-js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="3489" selection-start-line="3489" selection-end-line="3489" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/ionicons.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/layout-1/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="213" selection-start-line="213" selection-end-line="213" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requiremnets.txt" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProsenjitKumar/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -425,6 +594,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProsenjitKumar/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -432,36 +611,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/front-page-category.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/social-icon.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3078">
-          <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+        <state relative-caret-position="1362">
+          <caret line="371" column="1" selection-start-line="371" selection-start-column="1" selection-end-line="371" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/base/base_blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="71" column="58" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
+        <state relative-caret-position="-450">
+          <caret line="21" column="79" lean-forward="true" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/portfolio/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="132">
+          <caret line="21" column="96" lean-forward="true" selection-start-line="21" selection-end-line="22" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#331#365#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
