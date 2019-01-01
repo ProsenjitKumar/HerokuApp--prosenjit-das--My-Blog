@@ -45,7 +45,21 @@
 
         <!-- 9. EXTRA SMALL BLOG -->
 
-			<a class="load-more-btn" href="#"><b>LOAD MORE</b></a>
+            <div class="pagination">
+                <span class="step-links">
+                    {% if page_obj.has_previous %}
+                        <a href="?page={{ page_obj.previous_page_number }}" style="color: #13b521">Previous</a>
+                    {% endif %}
+
+                    <span class="current">
+                        Page {{ page_obj.number }} of {{ paginator.num_pages }}.
+                    </span>
+
+                    {% if page_obj.has_next %}
+                        <a href="?page={{ page_obj.next_page_number }}" style="color: #13b521">Next</a>
+                    {% endif %}
+                </span>
+            </div>
 
 		</div><!-- container -->
 	</section><!-- section -->

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f88859b9-42c5-431a-8ee8-102d0f0f7040" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -70,11 +66,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="245">
+              <caret line="58" column="96" selection-start-line="58" selection-start-column="96" selection-end-line="58" selection-end-column="96" />
+              <folding>
+                <element signature="e#1315#1337#0#HTML" expanded="true" />
+                <element signature="e#1633#1655#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,16 +137,17 @@
         <option value="$PROJECT_DIR$/templates/blog/base/base_blog.html" />
         <option value="$PROJECT_DIR$/blog/static/blog/css/social-icon.css" />
         <option value="$PROJECT_DIR$/templates/portfolio/index.html" />
-        <option value="$PROJECT_DIR$/templates/blog/index.html" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/templates/blog/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="609" />
     <option name="y" value="27" />
-    <option name="width" value="1001" />
-    <option name="height" value="839" />
+    <option name="width" value="991" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -265,12 +266,12 @@
       <workItem from="1546244754187" duration="799000" />
       <workItem from="1546252411086" duration="8841000" />
       <workItem from="1546268619124" duration="1676000" />
-      <workItem from="1546320896006" duration="1287000" />
+      <workItem from="1546320896006" duration="5007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42343000" />
+    <option name="totallyTimeSpent" value="46063000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -282,14 +283,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1600" height="873" extended-state="6" />
+    <frame x="609" y="27" width="991" height="835" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.19265464" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.18557794" />
       <window_info id="Structure" order="1" sideWeight="0.50067294" side_tool="true" weight="0.19265464" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30282637" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30212766" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,7 +300,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006443" side_tool="true" weight="0.32166892" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49935567" visible="true" weight="0.32166892" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49935567" weight="0.33900708" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -513,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -532,10 +527,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="58" column="96" selection-start-line="58" selection-start-column="96" selection-end-line="58" selection-end-column="96" />
+          <folding>
+            <element signature="e#1315#1337#0#HTML" expanded="true" />
+            <element signature="e#1633#1655#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
