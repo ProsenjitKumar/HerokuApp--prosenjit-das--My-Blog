@@ -6,15 +6,19 @@
 
 {% block blog_content %}
 
+
+    <!-- Bio Short Title-->
     <div>
         <label><img src="{% static 'blog/images/Prosenjit-Profile.jpg' %}" style="width: 250px;height: 350px" ></label>
-        <label><h4><strong>This is Prosenjit Das from Bangladesh as a Researcher like Python Developing with Software Architecture
-        and it's my profession & passion.</strong></h4></label>
+        <label><h4><strong>This is Prosenjit Das from Bangladesh as a Researcher like Python Developing with Software
+                            Architecture and it's my profession & passion.</strong></h4></label>
+    </div>
 
-        <div>
+    <!-- CSS link relation -->
+    <link href="{% static 'blog/css/social-icon.css' %}" rel="stylesheet">
 
-            <link href="{% static 'blog/css/social-icon.css' %}" rel="stylesheet">
-            <div class="container">
+    <!-- Social Site Icon -->
+    <div class="container">
        <div class="row">
         <br/><br/>
             <div class="col-md-12">
@@ -27,8 +31,189 @@
                 <a href="https://twitter.com/kumarprosenjit1" target="_blank" class="btn-social btn-twitter"><i class="fa fa-twitter"></i></a>
                 <a href="https://www.youtube.com/channel/UCMV-V1jyLz8sdva_tnsOvKA" target="_blank" class="btn-social btn-youtube"><i class="fa fa-youtube"></i></a>
             </div>
-
        </div>
-    </div>
+    </div><br><br>
+
+    <!-- My Goal or what i want to do -->
+    <section></section>
+
+    <!-- Skills Section -->
+    <section class="blog-area section">
+
+        <div class="container">
+            <div class="row">
+
+                <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                <script type="text/javascript">
+
+                window.onload = function () {
+                    var chart = new CanvasJS.Chart("chartContainer", {
+                        title:{
+                            text: "Skills"
+                        },
+                        data: [
+                        {
+                            // Change type to "doughnut", "line", "splineArea", etc.
+                            type: "column",
+                            dataPoints: [
+                                { label: "Python/Django",  y: 90  },
+                                { label: "Docker", y: 85  },
+                                { label: "Redis/Redux", y: 68  },
+                                { label: "AWS",  y: 78  },
+                                { label: "Algorithm",  y: 66  },
+                                { label: "Data Structure",  y: 71  },
+                                { label: "Design Pattern",  y: 58  },
+                                { label: "Restful API, GraphQL",  y: 48  },
+                                { label: "PostGreSql, MySql, NoSql",  y: 84  },
+                                { label: "Linux/Shell",  y: 88  },
+                                { label: "ReactJS",  y: 62  },
+                                { label: "Html5/css",  y: 60  },
+                                { label: "TDD",  y: 52  },
+                                { label: "PyQt5 & Designer",  y: 73  },
+                            ]
+                        }
+                        ]
+                    });
+                    chart.render();
+                }
+                </script>
+                <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+
+            </div>
+
+            <!--
+            <div>
+                Qualification:
+                ±	Programming Language : Python(specialist), C/C++ and Java(Intermediate).
+                ± 	Framework: Tkinter (Basic), PyQt5 and Kivy(Basic), Android Studio,
+                ±	Web Back-end: Django(Pretty Advance), Node.js(beginner)
+                ±	Web Front-end : HTML5, CSS3, Javascript, ReactJS.
+                ±	Database: PostgreSQL, SQLite3 and MySql (Basic).
+                ±	Git, GitHub, Gitlab, Vim, command-line interface, SSH.
+                ±	Others(Beginner Level): Django Restful API, Django CMS, Django default ORM, 	PWA, SPA, TDD, Celery, RabbitMQ, Web Scraping, Web Crawler, Selenium, 	Docker, AWS, Blockchain, Design Pattern, Agile Methodology.
+                ±	Operating system : Linux(Debian), Windows.
+                ±	Tools: Pycharm, Netbeans, eclipse, QGis, VM.
+                ±	Familiar With: GraphQL, Tensorflow, Pandas, Numpy, Matplotlib, Matlab.
+            </div> -->
+
+        </div>
+
+    </section>
+    <!-- Projects -->
+    <section class="blog-area section">
+
+        <div class="container">
+            <div class="row">
+
+               <h4 style="padding-left: 47%"><strong>Projects</strong></h4>
+                <div>
+                    <p>
+                        1.	Dreamway Website: I made a website for worker of Dreamway IT and Software 	Firm and couple of month i’ve worked here. In this website I’ve used Django for 	Back-end, Django default database 	SQLite3 and Used a  template for frontend.
+                        From admin panel admin will update every worker info and this info will save 	into template. Every worker can see their info history. This is the main feature in 	this website
+                        Source Code:
+                        <a href="https://github.com/ProsenjitKumar/Dreamway-Worker-Website" target="_blank" class="btn-social btn-github"><i class="fa fa-github"></i></a>
+                    </p>
+                </div><br>
+                <div>
+                    <p>
+                    2.	HumanityWatch: HumanityWatch is a Non-Profit organization. Several tasks 	they do. Blood donation is one of them. Here i have included that purpose also.
+                        Every blood donor can be donated through this site. First of all, they have to 	signup or as any general blood donor, they can join.
+                        All blood donor list will show one page and everybody can search a specific 	username, blood type etc and also can update their blood last donation date.
+                        In this website I’ve used Django for Back-end, Django default database SQLite3 	and Used a template for frontend.
+                        Source Code: <a href="https://github.com/ProsenjitKumar/HumanityWatch" target="_blank" class="btn-social btn-github"><i class="fa fa-github"></i></a>
+                </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Work Experience -->
+    <section class="blog-area section">
+
+        <div class="container">
+            <div class="row">
+
+                <h4 style="padding-left: 47%"><strong>Experience</strong></h4>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Educational -->
+    <section class="blog-area section">
+
+        <div class="container">
+            <div class="row">
+
+                <h4 style="padding-left: 47%"><strong>Educational</strong></h4>
+
+                <div style="margin:0 auto;width:85%;text-align:left" class="card mb-3">
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+                  <thead>
+                    <tr>
+                        <th>Certification or Degree</th>
+                      <th>Institution Name</th>
+                      <th>Subject</th>
+                      <th>Year</th>
+                      <th>Result</th>
+                      <th>Board</th>
+                      <th>Last Session</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+
+                        <tr>
+                           <td>Secondary School Certificate (SSC)</td>
+                          <td>Bahadurpur High School, Monirampur, Jessore.</td>
+                          <td>Science.</td>
+                          <td>2007-2012</td>
+                           <td>3.94 out of 5.00</td>
+                           <td>Jessore.</td>
+                        </tr>
+
+                        <tr>
+                          <td>Higher Secondary School Certificate(HSC)</td>
+                          <td>Khulna Islamia College, Khulna.</td>
+                          <td>Science.</td>
+                          <td>2012-2014.</td>
+                           <td>3.50 out of 5.00</td>
+                           <td>Jessore.</td>
+                        </tr>
+
+                        <tr>
+                          <td>Bachelor of Science (Bsc)</td>
+                          <td>North Western University, Bangladesh.</td>
+                          <td>Computer Science & Engineering(CSE)</td>
+                           <td>2016-2018 Uncompleted</td>
+                          <td>3.94 out of 5.00</td>
+                            <td></td>
+                           <td>3 year 1 semester. </td>
+                        </tr>
+
+                  <tbody>
+
+
+
+                </table>
+              </div>
+            </div>
+          </div>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
 
 {% endblock %}
