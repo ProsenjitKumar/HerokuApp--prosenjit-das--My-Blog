@@ -5,7 +5,8 @@ from .models import BlogPost
 
 class BlogHomeView(ListView):
     model = BlogPost
-    paginate_by = 15
+    paginate_by = 9
+    ordering = ['-post_date']
     template_name = 'blog/index.html'
 
 
