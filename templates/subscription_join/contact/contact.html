@@ -1,0 +1,52 @@
+{% extends 'blog/base/base_blog.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block title %}
+    <title>Contact</title>
+{% endblock %}
+
+{% block blog_content %}<br>
+
+
+  <div style="color: green; padding-left: 10%; font-family: 56px">
+  <form method="post" novalidate>
+    {% csrf_token %}
+    <div class="form-row">
+      <div class="form-group col-md-6 mb-0">
+        {{ form.email|as_crispy_field }}
+      </div>
+      <div class="form-group col-md-6 mb-0">
+        {{ form.subject|as_crispy_field }}
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6 mb-0">
+        {{ form.message|as_crispy_field }}
+      </div>
+    </div>
+    {{ form.cc_myself|as_crispy_field }}
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+  </div><br>
+
+
+    <div>
+        <div id="map" style="width: 100%; height: 500px; border: #4cae4c;">
+
+            <script>
+                function initMap() {
+                  var uluru = {lat: 22.830335 , lng: 89.532506 };
+                  var map = new google.maps.Map(
+                      document.getElementById('map'), {zoom: 16, center: uluru});
+                  var marker = new google.maps.Marker({position: uluru, map: map, title: 'Prosenjit Das'});
+                }
+            </script>
+
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqEz7ozYxKa53JAeN4GFN2HfilyiFCbvw&callback=initMap">
+            </script>
+    </div>
+
+
+
+{% endblock %}

@@ -26,8 +26,26 @@ SECRET_KEY = '@1&xq!*w#9=0njxt&mtwxq@s$#$oo7+1(g+y7ze@r0ulp_ky8)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['prosenjit-das']
+ALLOWED_HOSTS = ['pro-python']
 
+# Email Backend
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+#
+# EMAIL_HOST = 'smtp.sendgrid.net'
+# EMAIL_HOST_USER = 'prosenjitdas'
+# EMAIL_HOST_PASSWORD = '#Learning123'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+
+# # https://www.google.com/settings/security/lesssecureapps
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'kumarisamolirani@gmail.com'
+EMAIL_HOST_PASSWORD = '#samoli123'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+
+SITE_ID = 1
 
 # Application definition
 
@@ -38,9 +56,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Built In or Third Party
+    'crispy_forms',
     # **********My Apps*********
     'blog.apps.BlogConfig',
     'portfolio',
+    'accounts',
+    'subscription_join',
+    'reviews',
     # E-commerce
     'e_commerce',
 ]

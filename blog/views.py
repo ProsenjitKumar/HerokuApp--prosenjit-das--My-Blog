@@ -4,7 +4,6 @@ from .models import BlogPost
 from django.utils import timezone
 
 
-
 class BlogHomeView(ListView):
     model = BlogPost
     paginate_by = 9

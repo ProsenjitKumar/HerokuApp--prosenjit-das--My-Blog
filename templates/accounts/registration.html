@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title>register</title>
+	<script type="text/javascript">
+		function id(id){
+			return document.getElementById(id);
+		}
+		function setCookie(c_name,value,expiredays){
+			var exdate=new Date();
+			exdate.setDate(exdate.getDate()+expiredays);
+			document.cookie=c_name+ "=" +escape(value)+
+			((expiredays==null) ? "" : ";expires="+exdate.toUTCString());
+		}
+		function checkpw(form){
+			if(form.password.value != form.chkpasswd.value){
+				id("note3").textContent="password and checkpassword not same";
+				form.username.focus();
+				return;
+			}
+			else
+				id("note3").textContent="";
+		}
+		function register(form){
+			if(form.username.value == ""){
+				id("note1").textContent="please enter the username";
+				form.username.focus();
+				return;
+			}
+			else
+				id("note1").textContent="";
+			if(form.password.value == ""){
+				id("note2").textContent="please enter the password";
+				form.password.focus();
+				return;
+			}
+			else
+				id("note1").textContent="";
+
+			var ajax=new XMLHttpRequest();
+			ajax.onreadystatechange = function(){
+				if(this.readyState == 4 && this.status ==200){
+					var check = this.responseText;
+					if(check == "true"){
+						setCookie('username',form.username.value,10);
+						alert("success");
+						location.replace("index.html");
+					}
+					else if(check == "same"){
+						id("check").textContent="this id has been used";
+						return;
+					}
+					else if(check == "false"){
+						id("check").textContent="wrong username or password";
+						return;
+					}
+					else{
+						id("check").textContent=check;
+						return;
+					}
+				}
+			}
+			ajax.open("POST","register.php");
+			ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+			ajax.send("username="+form.username.value+"&password="+form.password.value);
+		}
+	</script>
+</head>
+<body>
+	<form>
+	<fieldset>
+	<legend>register</legend>
+	username:<input type="text" name="username" /><sapn id="note1"></sapn><br />
+	password:<input type="password" name="password" value=""/><span id="note2"></span><br />
+	checkpassword:<input type="password" name="chkpasswd" value="" onblur="checkpw(this.form)" /><span id="note3"></span><br />
+	<input type="button" value="sent" onclick="register(this.form)" />
+	<p id="check"></p>
+	</fieldset>
+	</form>
+	<a href="login.html">Back</a>
+	<a href="{% url 'blog:home_blog' %}">index</a>
+</body>
+</html>

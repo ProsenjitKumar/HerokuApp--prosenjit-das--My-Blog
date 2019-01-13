@@ -22,5 +22,8 @@ urlpatterns = [
     path('prosenjit-admin/', admin.site.urls),
     path('portfolio/', include('portfolio.urls')),
     path('', include('blog.urls', namespace='slug')),
+    path('accounts/', include('accounts.urls')),
+    path('', include('subscription_join.urls')),
+    path('review/', include('reviews.urls')),
     path('e-commerce/', include('e_commerce.cart.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
