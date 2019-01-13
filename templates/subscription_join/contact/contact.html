@@ -7,46 +7,83 @@
 
 {% block blog_content %}<br>
 
+    <!-- CSS link relation -->
+    <link href="{% static 'blog/css/social-icon.css' %}" rel="stylesheet">
 
-  <div style="color: green; padding-left: 10%; font-family: 56px">
-  <form method="post" novalidate>
-    {% csrf_token %}
-    <div class="form-row">
-      <div class="form-group col-md-6 mb-0">
-        {{ form.email|as_crispy_field }}
-      </div>
-      <div class="form-group col-md-6 mb-0">
-        {{ form.subject|as_crispy_field }}
-      </div>
+    <!-- Contact Form -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post" novalidate>
+                    {% csrf_token %}
+                    <div class="form-row">
+                      <div class="form-group col-md-6 mb-0">
+                        {{ form.email|as_crispy_field }}
+                      </div>
+                      <div class="form-group col-md-6 mb-0">
+                        {{ form.subject|as_crispy_field }}
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6 mb-0">
+                        {{ form.message|as_crispy_field }}
+                      </div>
+                    </div>
+                    {{ form.cc_myself|as_crispy_field }}
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </div><br>
+
+    <!-- Contact Info -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <strong><p style="font-size: 25px">Email: prosenjitearnkumar@gmail.com</p></strong>
+                <strong><p style="font-size: 25px">Contact Number: +8801987045083</p></strong>
+                <strong><p style="font-size: 25px">Skype Live: prosenjitearnkumar</p></strong>
+            </div>
+        </div>
+    </div><br>
+
+    <!-- Social Media -->
+  <div class="container">
+       <div class="row">
+        <br/><br/>
+            <div class="col-md-12">
+                <a href="https://www.facebook.com/prosenjit1994/" target="_blank" class="btn-social btn-facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://stackoverflow.com/users/6519334/prosenjit?tab=profile" target="_blank" class="btn-social btn-stack-overflow"><i class="fa fa-stack-overflow"></i></a>
+                <a href="https://github.com/ProsenjitKumar" target="_blank" class="btn-social btn-github"><i class="fa fa-github"></i></a>
+                <a href="https://plus.google.com/112864871797530852534" target="_blank" class="btn-social btn-google-plus"><i class="fa fa-google-plus"></i></a>
+                <a href="https://www.linkedin.com/in/prosenjit-kumar-37337111a/" target="_blank" class="btn-social btn-linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.reddit.com/user/prosenjit1994" target="_blank" class="btn-social btn-reddit"><i class="fa fa-reddit"></i></a>
+                <a href="https://twitter.com/kumarprosenjit1" target="_blank" class="btn-social btn-twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCMV-V1jyLz8sdva_tnsOvKA" target="_blank" class="btn-social btn-youtube"><i class="fa fa-youtube"></i></a>
+            </div>
+       </div>
+    </div><br><br>
+
+        <!-- Google Map My Location -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="map" style="width: 100%; height: 500px; border: #4cae4c;">
+                    <script>
+                        function initMap() {
+                          var uluru = {lat: 22.830335 , lng: 89.532506 };
+                          var map = new google.maps.Map(
+                              document.getElementById('map'), {zoom: 16, center: uluru});
+                          var marker = new google.maps.Marker({position: uluru, map: map, title: 'Prosenjit Das'});
+                        }
+                    </script>
+                    <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqEz7ozYxKa53JAeN4GFN2HfilyiFCbvw&callback=initMap">
+                    </script>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="form-row">
-      <div class="form-group col-md-6 mb-0">
-        {{ form.message|as_crispy_field }}
-      </div>
-    </div>
-    {{ form.cc_myself|as_crispy_field }}
-    <button type="submit" class="btn btn-primary">Send</button>
-  </form>
-  </div><br>
-
-
-    <div>
-        <div id="map" style="width: 100%; height: 500px; border: #4cae4c;">
-
-            <script>
-                function initMap() {
-                  var uluru = {lat: 22.830335 , lng: 89.532506 };
-                  var map = new google.maps.Map(
-                      document.getElementById('map'), {zoom: 16, center: uluru});
-                  var marker = new google.maps.Marker({position: uluru, map: map, title: 'Prosenjit Das'});
-                }
-            </script>
-
-            <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqEz7ozYxKa53JAeN4GFN2HfilyiFCbvw&callback=initMap">
-            </script>
-    </div>
-
 
 
 {% endblock %}
