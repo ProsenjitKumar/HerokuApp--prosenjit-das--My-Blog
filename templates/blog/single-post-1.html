@@ -28,6 +28,14 @@
 
 	<link href="{% static 'blog/single-post-1/css/responsive.css' %}" rel="stylesheet">
 
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-9390573501304515",
+        enable_page_level_ads: true
+      });
+    </script>
+
 </head>
 <body >
 
@@ -70,7 +78,7 @@
 							<div class="post-info">
 
 								<div class="left-area">
-									<a class="avatar" href="#"><img src="{% static 'blog/images/author_image.jpg' %}" alt="Profile Image"></a>
+									<a class="avatar" href="{% url 'blog:home_blog' %}"><img src="{% static 'blog/images/author_image.jpg' %}" alt="Profile Image"></a>
 								</div>
 
 								<div class="middle-area">

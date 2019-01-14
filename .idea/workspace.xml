@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f88859b9-42c5-431a-8ee8-102d0f0f7040" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/base/base_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/base/base_blog.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,10 +172,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="629" />
     <option name="y" value="27" />
-    <option name="width" value="981" />
-    <option name="height" value="831" />
+    <option name="width" value="971" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -350,12 +352,12 @@
       <workItem from="1547223857853" duration="154000" />
       <workItem from="1547287061597" duration="2667000" />
       <workItem from="1547383887084" duration="1248000" />
-      <workItem from="1547438408241" duration="634000" />
+      <workItem from="1547438408241" duration="969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93937000" />
+    <option name="totallyTimeSpent" value="94272000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
