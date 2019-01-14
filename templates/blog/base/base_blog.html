@@ -1,3 +1,4 @@
+{% load crispy_forms_tags %}
 {% load static %}
 
 <!DOCTYPE HTML>
@@ -117,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-section">
 
-						<a href="{% url 'portfolio' %}" class="logo"><img src="{% static 'blog/images/prosenjit.jpg' %}" alt="Logo Image"></a>
+						<a href="{% url 'portfolio' %}" class="logo"><img src="{% static 'blog/images/prosenjit.ico' %}" alt="Logo Image"></a>
 						<p class="copyright">Blog @ 2017. All rights reserved.</p>
 						<p class="copyright">Developed by <a href="http://prosenjit-das.herokuapp.com/portfolio/" target="_blank">Prosenjit Das</a></p>
 						<ul class="icons">
@@ -158,22 +159,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <script>
                      (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
-
-				<div class="col-lg-4 col-md-6">
-					<div class="footer-section">
-
-						<h4 class="title"><b>SUBSCRIBE</b></h4>
-						<div class="input-area">
-							<form>
-								<input class="email-input" type="text" placeholder="Enter your email">
-								<button class="submit-btn" type="submit"><i class="icon ion-ios-email-outline"></i></button>
-							</form>
-						</div>
-
-					</div><!-- footer-section -->
-
-				</div><!-- col-lg-4 col-md-6 -->
-
 			</div><!-- row -->
 		</div><!-- container -->
 

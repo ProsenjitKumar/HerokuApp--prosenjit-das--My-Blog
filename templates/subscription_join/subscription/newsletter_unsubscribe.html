@@ -1,0 +1,29 @@
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unsubscrbe</title>
+</head>
+<body>
+
+<h1>Unsubscribe</h1>
+{% if messages %}
+    {% for message in messages %}
+        <div {% if message.tags %} class="{{ message.tags }}" {% endif %} role="alert">
+        {{ message }}
+        </div>
+    {% endfor %}
+
+{% else %}
+<form method="post">
+    {% csrf_token %}
+    {% crispy form %}
+</form><br>
+{% endif %}
+
+You can <a href="{% url 'newsletter_signup' %}"><button class="btn btn-default" type="submit">Subscribe</button></a>
+
+
+</body>
+</html>

@@ -2,6 +2,9 @@ from crispy_forms.helper import FormHelper
 from django import forms
 from django.core.mail import send_mail
 from crispy_forms.layout import Layout, Div, Submit, Row, Column, Field
+import re
+from crispy_forms.layout import Submit
+from .models import NewsLetterUser, NewsLetter
 
 
 class ContactForm(forms.Form):
@@ -39,9 +42,23 @@ class CrispyContactAddressForm(ContactForm):
         )
 
 
-class JoinForm(forms.Form): # or forms.ModelForm
+class NewsLetterUserSignUpForm(forms.Form):
     email = forms.EmailField()
-    name = forms.CharField(max_length=120)
+
+    def clean_data(self):
+        emailFrom = self.cleaned_data['email']
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

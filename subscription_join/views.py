@@ -1,7 +1,13 @@
-from .forms import JoinForm
-from .mixins import AjaxFormMixin
+#from .mixins import AjaxFormMixin
 from django.views.generic import FormView, TemplateView
 from .forms import ContactForm
+from django.shortcuts import render
+from .models import NewsLetterUser, NewsLetter
+from .forms import NewsLetterUserSignUpForm
+from django.contrib import messages
+from django.core.mail import send_mail, EmailMultiAlternatives
+from django.template.loader import get_template
+from django.conf import settings
 
 
 class ContactView(FormView):
@@ -29,12 +35,15 @@ class Success(TemplateView):
     template_name = "subscription_join/contact/success.html"
 
 
-class JoinFormView(AjaxFormMixin, FormView):
-    form_class = JoinForm
-    template_name = 'subscription_join/ajax.html'
-    success_url = '/portfolio/'
+class NewsLetterUserSignUpView(FormView):
+    template_name = 'blog/base/base_blog.html'
+    form_class = NewsLetterUserSignUpForm
+    success_url = '/success/'
 
+    def get_context_data(self, **kwargs):
+        context = super(NewsLetterUserSignUpView, self).get_context_data(**kwargs)
+        return context
 
-
-
+    def form_valid(self, form):
+        return super(NewsLetterUserSignUpView, self).form_valid(form)
 

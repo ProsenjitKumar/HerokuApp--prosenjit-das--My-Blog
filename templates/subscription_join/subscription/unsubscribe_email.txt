@@ -1,0 +1,2 @@
+If you have any issue you can contact via my blog please visit this link:" \
+                             " http://127.0.0.1:8000/contact
