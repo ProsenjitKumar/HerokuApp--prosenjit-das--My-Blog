@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f88859b9-42c5-431a-8ee8-102d0f0f7040" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/subscription_join/subscription/control_newsletter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/subscription_join/subscription/control_panel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/subscription_join/subscription/newsletter_signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/subscription_join/subscription/newsletter_unsubscribe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/subscription_join/subscription/signup_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/subscription_join/subscription/signup_email.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/subscription_join/subscription/unsubscribe_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/subscription_join/subscription/unsubscribe_email.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription_join/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscription_join/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription_join/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscription_join/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription_join/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscription_join/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription_join/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscription_join/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription_join/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscription_join/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/base/base_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/base/base_blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/single-post-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/single-post-1.html" afterDir="false" />
-    </list>
+    <list default="true" id="f88859b9-42c5-431a-8ee8-102d0f0f7040" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/base/base_blog.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
@@ -86,8 +69,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="191" column="30" selection-start-line="191" selection-start-column="30" selection-end-line="191" selection-end-column="30" />
+            <state relative-caret-position="-138">
+              <caret line="262" column="47" lean-forward="true" selection-start-line="262" selection-start-column="47" selection-end-line="262" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/portfolio/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-648">
+              <caret line="87" column="65" selection-start-line="87" selection-start-column="65" selection-end-line="87" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -147,8 +139,8 @@
         <option value="$PROJECT_DIR$/subscription_join/forms.py" />
         <option value="$PROJECT_DIR$/subscription_join/views.py" />
         <option value="$PROJECT_DIR$/subscription_join/urls.py" />
-        <option value="$PROJECT_DIR$/templates/blog/single-post-1.html" />
         <option value="$PROJECT_DIR$/templates/blog/base/base_blog.html" />
+        <option value="$PROJECT_DIR$/templates/blog/single-post-1.html" />
       </list>
     </option>
   </component>
@@ -171,11 +163,6 @@
             <path>
               <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HerokuApp--prosenjit-das--My-Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="ProsenjitKumar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HerokuApp--prosenjit-das--My-Blog" type="b2602c69:ProjectViewProjectNode" />
@@ -327,12 +314,12 @@
       <workItem from="1547438408241" duration="4119000" />
       <workItem from="1547454821160" duration="4256000" />
       <workItem from="1547466664136" duration="4723000" />
-      <workItem from="1547471523163" duration="1946000" />
+      <workItem from="1547471523163" duration="4025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108347000" />
+    <option name="totallyTimeSpent" value="110426000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -347,12 +334,12 @@
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.18427835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.17912371" />
       <window_info id="Structure" order="1" sideWeight="0.50067294" side_tool="true" weight="0.19265464" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -625,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/portfolio/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="65" selection-start-line="87" selection-start-column="65" selection-end-line="87" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/subscription_join/contact/success.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -743,17 +723,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="191" column="30" selection-start-line="191" selection-start-column="30" selection-end-line="191" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/base/base_blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="120" column="115" selection-start-line="120" selection-start-column="115" selection-end-line="120" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/single-post-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="262" column="47" lean-forward="true" selection-start-line="262" selection-start-column="47" selection-end-line="262" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/portfolio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
+          <caret line="87" column="65" selection-start-line="87" selection-start-column="65" selection-end-line="87" selection-end-column="65" />
         </state>
       </provider>
     </entry>
