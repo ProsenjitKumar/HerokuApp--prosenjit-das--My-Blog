@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog/base/base_blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="839">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="330">
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="42" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#ins#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ins#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -307,12 +307,12 @@
       <workItem from="1547454821160" duration="4256000" />
       <workItem from="1547466664136" duration="4723000" />
       <workItem from="1547471523163" duration="4025000" />
-      <workItem from="1547562906946" duration="3417000" />
+      <workItem from="1547562906946" duration="3672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113843000" />
+    <option name="totallyTimeSpent" value="114098000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -735,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/base/base_blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="330">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#ins#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ins#1;n#body#0;n#html#0;n#!!top" expanded="true" />
