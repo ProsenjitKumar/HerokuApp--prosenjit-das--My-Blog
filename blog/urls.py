@@ -10,7 +10,7 @@ urlpatterns = [
     re_path('(?P<pk>\d+)-(?P<slug>[-\w]+)/$', BlogDetailView.as_view(), name='blog_details'),
     # question post
     re_path('question/', QuestionPostView.as_view(), name='question_list'),
-    re_path('(?P<slug>[-\w]+)/$', QuestionDetailView.as_view(), name='question__details'),
+    re_path('details/(?P<slug>[-\w]+)/$', QuestionDetailView.as_view(), name='question__details'),
 ]
 
 
