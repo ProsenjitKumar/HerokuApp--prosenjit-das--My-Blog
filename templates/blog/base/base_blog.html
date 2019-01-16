@@ -74,6 +74,15 @@
     })(window,document,'script','dataLayer','GTM-TTQ68DD');</script>
     <!-- End Google Tag Manager -->
 
+	<!-- AdSense for Shopping Multiple Format
+    https://developers.google.com/adsense-for-shopping/docs/code-generator-->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+	<!-- other head elements from your page -->
+	<script type="text/javascript" charset="utf-8">
+	  (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+	  arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+	</script>
+
 </head>
 <body >
 
@@ -97,14 +106,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 			<ul class="main-menu visible-on-click" id="main-menu">
 				<li><a href="{% url 'blog:home_blog' %}">Home</a></li>
+                <li><a href="{% url 'blog:question_list' %}">Question</a></li>
                 <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
 			</ul><!-- main-menu -->
 
+            <!-- search form -->
 			<div class="src-area">
-				<form>
+				<form method="get" action=" ">
 					<button class="src-btn" type="submit"><i class="ion-ios-search-strong"></i></button>
-					<input class="src-input" type="text" placeholder="Type of search">
+					<input class="src-input" name='q' type="text" placeholder="Type of search">
 				</form>
 			</div>
 
@@ -155,6 +166,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
     <!-- ********* Google Add show end************** -->
+
+    <!-- ********* Google Custom Search************** -->
+    <!--<script>
+	  (function() {
+	    var cx = '004910132774560929900:gui7t2tfzms';
+	    var gcse = document.createElement('script');
+	    gcse.type = 'text/javascript';
+	    gcse.async = true;
+	    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+	    var s = document.getElementsByTagName('script')[0];
+	    s.parentNode.insertBefore(gcse, s);
+	  })();
+	</script>
+	<gcse:search></gcse:search>-->
+	<!-- ********* Google Custom Search end************** -->
+
+	<!-- AdSense for Shopping Multiple Format
+    https://developers.google.com/adsense-for-shopping/docs/code-generator-->
+	<div id="afshcontainer"></div>
+	<script type="text/javascript" charset="utf-8">
+	var pageOptions = {
+	  "pubId" : "test pub-id",
+	  "query" : "lcd television",
+	  "adsafe" : "high",
+	  "adtest" : "off",
+	  "hl" : "en"
+	};
+
+	var afshBlock = {
+	  "container" : "afshcontainer",
+	  "width" : 500,
+	  "height" : 400,
+	};
+	_googCsa("plas", pageOptions, afshBlock);
+	</script>
+	<!-- AdSense for Shopping end-->
 
 
 	<footer>

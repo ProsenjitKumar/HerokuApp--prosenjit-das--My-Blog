@@ -64,6 +64,7 @@ INSTALLED_APPS = [
     'accounts',
     'subscription_join',
     'reviews',
+    'search',
     # E-commerce
     'e_commerce',
 ]

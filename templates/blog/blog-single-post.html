@@ -55,9 +55,28 @@
     })(window,document,'script','dataLayer','GTM-TTQ68DD');</script>
     <!-- End Google Tag Manager -->
 
+    <!-- Automatically smarter ads for AMP -->
+    <script async custom-element="amp-auto-ads"
+            src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+
+    <!-- AdSense for Shopping Multiple Format
+    https://developers.google.com/adsense-for-shopping/docs/code-generator-->
+    <script async="async" src="https://www.google.com/adsense/search/ads.js"></script>
+	<!-- other head elements from your page -->
+	<script type="text/javascript" charset="utf-8">
+	  (function(g,o){g[o]=g[o]||function(){(g[o]['q']=g[o]['q']||[]).push(
+	  arguments)},g[o]['t']=1*new Date})(window,'_googCsa');
+	</script>
+
 </head>
 <body >
 
+<!-- Automatically smarter ads for AMP
+    It usually takes 20 minutes for ads to appear on the page.-->
+<amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-9390573501304515">
+</amp-auto-ads>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTQ68DD"
@@ -73,6 +92,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 			<ul class="main-menu visible-on-click" id="main-menu">
 				<li><a href="{% url 'blog:home_blog' %}">Home</a></li>
+                <li><a href="{% url 'blog:question_list' %}">Question</a></li>
 				<li><a href="{% url 'portfolio' %}">Portfolio</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
 			</ul><!-- main-menu -->
@@ -86,8 +106,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		</div><!-- conatiner -->
 	</header>
-
-
 
 	<section class="post-area section">
 		<div class="container">
@@ -234,6 +252,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		</div><!-- container -->
 	</section><!-- post-area -->
+
+	<!-- AdSense for Shopping Multiple Format
+    https://developers.google.com/adsense-for-shopping/docs/code-generator-->
+	<div id="afshcontainer"></div>
+	<script type="text/javascript" charset="utf-8">
+	var pageOptions = {
+	  "pubId" : "test pub-id",
+	  "query" : "lcd television",
+	  "adsafe" : "high",
+	  "adtest" : "off",
+	  "hl" : "en"
+	};
+
+	var afshBlock = {
+	  "container" : "afshcontainer",
+	  "width" : 500,
+	  "height" : 400,
+	};
+	_googCsa("plas", pageOptions, afshBlock);
+	</script>
+	<!-- AdSense for Shopping endMultiple Format
+    https://developers.google.com/adsense-for-shopping/docs/code-generator-->
 
 
 	<section class="recomended-area section">

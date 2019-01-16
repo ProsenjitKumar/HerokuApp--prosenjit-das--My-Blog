@@ -1,0 +1,65 @@
+{% extends 'blog/base/base_blog.html' %}
+{% load static %}
+
+{% block title %}
+    <title>Home</title>
+    <link rel="icon" type="image/jpg" href="{% static 'blog/images/prosenjit.jpg' %}"/>
+{% endblock %}
+
+{% block blog_content %}
+
+
+	<section class="blog-area section">
+		<div class="container">
+
+			<div class="row">
+
+                {% for object in object_list %}
+
+				<div class="col-lg-4 col-md-6">
+					<div class="card h-100">
+						<div class="single-post post-style-1">
+
+							<div class="blog-info">
+
+								<h4 class="title"><a href="{% url 'blog:question__details' object.slug %}"><b>{{ object.title }}</b></a></h4>
+
+								<ul class="post-footer">
+									<li><a href="#"><i class="ion-heart"></i>57</a></li>
+									<li><a href="#"><i class="ion-chatbubble"></i>6</a></li>
+									<li><a href="#"><i class="ion-eye"></i>138</a></li>
+								</ul>
+
+							</div><!-- blog-info -->
+						</div><!-- single-post -->
+					</div><!-- card -->
+				</div><!-- col-lg-4 col-md-6 -->
+
+                {% endfor %}
+
+
+
+			</div><!-- row -->
+
+        <!-- 9. EXTRA SMALL BLOG -->
+
+            <div class="pagination">
+                <span class="step-links">
+                    {% if page_obj.has_previous %}
+                        <a href="?page={{ page_obj.previous_page_number }}" style="color: #13b521">Previous</a>
+                    {% endif %}
+
+                    <span class="current">
+                        Page {{ page_obj.number }} of {{ paginator.num_pages }}.
+                    </span>
+
+                    {% if page_obj.has_next %}
+                        <a href="?page={{ page_obj.next_page_number }}" style="color: #13b521">Next</a>
+                    {% endif %}
+                </span>
+            </div>
+
+		</div><!-- container -->
+	</section><!-- section -->
+
+{% endblock %}
