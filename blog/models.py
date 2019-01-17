@@ -3,6 +3,9 @@ from django.db import models
 
 
 # *************** simple blog start ************************
+from django.urls import reverse
+
+
 class EntryQuerySet(models.QuerySet):
     def published(self):
         return self.filter(publish=True)
@@ -26,6 +29,11 @@ class BlogPost(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return "/blog_home/%s/" %(self.id)
+        #return reverse('home_blog', args=[str(self.id)])
+
 
     class Meta:
         ordering = ['-post_date']

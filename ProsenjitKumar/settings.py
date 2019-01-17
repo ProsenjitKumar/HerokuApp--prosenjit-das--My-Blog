@@ -54,6 +54,8 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Built In or Third Party
@@ -65,9 +67,13 @@ INSTALLED_APPS = [
     'subscription_join',
     'reviews',
     'search',
+    # ***** base *****
+    'base',
     # E-commerce
     'e_commerce',
 ]
+
+SITE_ID = 1
 
 MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
