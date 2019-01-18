@@ -113,8 +113,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <!-- search form -->
 			<div class="src-area">
-				<form method="get" action=" ">
-					<button class="src-btn" type="submit"><i class="ion-ios-search-strong"></i></button>
+				<form method="get" action="">
+					<button class="src-btn" type="submit" value='{{ request.GET.q }}'><i class="ion-ios-search-strong"></i></button>
 					<input class="src-input" name='q' type="text" placeholder="Type of search">
 				</form>
 			</div>

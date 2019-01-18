@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.views.generic import ListView, DetailView
 from .models import BlogPost, QuestionPost
 from django.utils import timezone
+from blog.models import BlogPost
 
 
 # *************** simple blog start ************************
@@ -10,6 +11,14 @@ class BlogHomeView(ListView):
     paginate_by = 9
     ordering = ['-post_date']
     template_name = 'blog/blog-post-list.html'
+
+    def get_queryset(self):
+        query = self.request.GET.get('q')
+        if query:
+            object_list = self.model.objects.filter(title__icontains=query)
+        else:
+            object_list = self.model.objects.all()
+        return object_list
 
 
 class BlogDetailView(DetailView):
