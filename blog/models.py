@@ -52,6 +52,9 @@ class QuestionPost(models.Model):
     def __str__(self):
         return self.title
 
+    def get_absolute_url(self):
+        return "/question_list/%s/" %(self.id)
+
     class Meta:
         ordering = ['-post_date']
 # *************** question blog end ************************
