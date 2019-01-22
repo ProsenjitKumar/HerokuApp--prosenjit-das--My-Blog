@@ -6,6 +6,7 @@ from .models import (
     CurrentPosition,
     Experience,
     EducationalBackground,
+    Gallery,
 )
 
 
@@ -55,3 +56,10 @@ class EducationalBackgroundAdmin(admin.ModelAdmin):
 
 
 admin.site.register(EducationalBackground, EducationalBackgroundAdmin)
+
+
+class GalleryAdmin(admin.ModelAdmin):
+    list_display = ['image']
+
+
+admin.site.register(Gallery, GalleryAdmin)

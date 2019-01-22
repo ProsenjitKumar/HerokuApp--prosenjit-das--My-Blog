@@ -1,6 +1,13 @@
 from django.db import models
 
 
+class Gallery(models.Model):
+    image = models.ImageField(upload_to='gallery', blank=True)
+
+    def __str__(self):
+        return self.image
+
+
 class Category(models.Model):
     name = models.CharField(max_length=255)
 
@@ -23,6 +30,7 @@ class Projects(models.Model):
     description = models.TextField()
     website = models.URLField(blank=True)
     source_code = models.URLField(blank=True)
+    done = models.DateTimeField(auto_now=True)
     updated = models.DateTimeField(auto_now_add=True)
     # slug = models.SlugField(prepopulate_from=('name',))
 
@@ -35,6 +43,7 @@ class CurrentPosition(models.Model):
     description = models.TextField()
     website = models.URLField(blank=True)
     source_code = models.URLField(blank=True)
+    joined = models.DateTimeField(auto_now=True)
     updated = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
@@ -46,6 +55,7 @@ class Experience(models.Model):
     description = models.TextField()
     website = models.URLField(blank=True)
     source_code = models.URLField(blank=True)
+    joined = models.DateTimeField(auto_now=True)
     updated = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
