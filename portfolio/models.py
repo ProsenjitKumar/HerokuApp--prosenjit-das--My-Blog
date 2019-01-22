@@ -21,7 +21,7 @@ class Skills(models.Model):
 class Projects(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
-    website = models.URLField(blank=False)
+    website = models.URLField(blank=True)
     source_code = models.URLField(blank=True)
     updated = models.DateTimeField(auto_now_add=True)
     # slug = models.SlugField(prepopulate_from=('name',))
@@ -33,7 +33,7 @@ class Projects(models.Model):
 class CurrentPosition(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
-    website = models.URLField(blank=False)
+    website = models.URLField(blank=True)
     source_code = models.URLField(blank=True)
     updated = models.DateTimeField(auto_now_add=True)
 
@@ -44,7 +44,7 @@ class CurrentPosition(models.Model):
 class Experience(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
-    website = models.URLField(blank=False)
+    website = models.URLField(blank=True)
     source_code = models.URLField(blank=True)
     updated = models.DateTimeField(auto_now_add=True)
 

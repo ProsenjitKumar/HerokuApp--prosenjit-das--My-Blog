@@ -6,13 +6,13 @@
 
 {% block blog_content %}
 
-    {% for i in Portfolio.objects.all %}
+
+    <!-- Portfolio Section -->
+    {% for object in portfolio_list %}
     <!-- Bio Short Title-->
     <div>
-        <label><img src="{% static 'blog/images/Prosenjit-Profile.jpg' %}" style="width: 250px;height: 350px" ></label>
-        <label><h4><strong>
-            {{ i.headline }}
-        </strong></h4></label>
+        <label><img src="{{ MEDIA_URL }} {{ object.image.url }}" style="width: 250px;height: 350px" ></label>
+        <label><h4><strong>{{ object.headline }}</strong></h4></label>
     </div>
 
     <!-- CSS link relation -->
@@ -43,14 +43,7 @@
 
                <h4 style="padding-left: 47%"><strong>My Goal</strong></h4>
                 <div>
-                    <p>
-
-
-                    <!-- -->
-
-
-
-                    </p>
+                    <p>{{ object.goal }}</p>
                 </div><br>
                 <div>
                     <p>
@@ -61,8 +54,8 @@
         </div>
 
     </section>
-
     {% endfor %}
+
 
 
     <!-- Skills Section -->
@@ -138,7 +131,10 @@
         </div>
 
     </section>
-    <!-- Projects -->
+
+
+    <!-- Projects Section-->
+    {% for object in project_list %}
     <section class="blog-area section">
 
         <div class="container">
@@ -146,11 +142,9 @@
 
                <h4 style="padding-left: 47%"><strong>Projects</strong></h4>
                 <div>
-                    <p>
-                        1.	Dreamway Website: I made a website for worker of Dreamway IT and Software 	Firm and couple of month i’ve worked here. In this website I’ve used Django for 	Back-end, Django default database 	SQLite3 and Used a  template for frontend.
-                        From admin panel admin will update every worker info and this info will save 	into template. Every worker can see their info history. This is the main feature in 	this website
+                    <p>{{ object.id }}. {{ object.name }}: {{ object.description }}
                         Source Code:
-                        <a href="https://github.com/ProsenjitKumar/Dreamway-Worker-Website" target="_blank" class="btn-social btn-github"><i class="fa fa-github"></i></a>
+                        <a href="{{ object.source_code }}" target="_blank" class="btn-social btn-github"><i class="fa fa-github"></i></a>
                     </p>
                 </div><br>
                 <div>
@@ -167,6 +161,7 @@
         </div>
 
     </section>
+    {% endfor %}
 
         <!-- Currently Working -->
     <section class="blog-area section">
