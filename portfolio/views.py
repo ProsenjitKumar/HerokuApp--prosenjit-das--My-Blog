@@ -7,6 +7,7 @@ from .models import (
     CurrentPosition,
     Experience,
     EducationalBackground,
+    Gallery,
 )
 
 
@@ -20,33 +21,9 @@ class PortfolioView(ListView):
     }
     template_name = 'portfolio/index.html'
 
-#
-# class SkillsView(ListView):
-#     model = Skills
-#     context_object_name = 'skills_list'
-#     template_name = 'portfolio/index.html'
-#
-#
-# class ProjectsView(ListView):
-#     model = Projects
-#     context_object_name = 'project_list'
-#     extra_context =
-#     template_name = 'portfolio/index.html'
-#
-#
-# class CurrentPositionView(ListView):
-#     model = CurrentPosition
-#     context_object_name = 'current_position_list'
-#     template_name = 'portfolio/index.html'
-#
-#
-# class ExperienceView(ListView):
-#     model = Experience
-#     template_name = 'portfolio/index.html'
-#
-#
-# class EducationalBackgroundView(ListView):
-#     model = EducationalBackground
-#     template_name = 'portfolio/index.html'
+
+class GalleryView(ListView):
+    model = Gallery
+    template_name = 'portfolio/gallery.html'
 
 
