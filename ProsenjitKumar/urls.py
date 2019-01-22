@@ -35,7 +35,7 @@ sitemaps = {
 urlpatterns = [
     path('prosenjit-admin/', admin.site.urls),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
-    path('portfolio/', include('portfolio.urls')),
+    path('', include('portfolio.urls')),
     path('', include('blog.urls', namespace='slug')),
     path('accounts/', include('accounts.urls')),
     path('', include('subscription_join.urls')),
