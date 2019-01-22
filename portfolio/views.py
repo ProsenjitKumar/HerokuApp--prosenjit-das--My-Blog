@@ -18,6 +18,7 @@ class PortfolioView(ListView):
 
 class SkillsView(ListView):
     model = Skills
+    context_object_name = 'skills_list'
     template_name = 'portfolio/index.html'
 
 
@@ -29,6 +30,7 @@ class ProjectsView(ListView):
 
 class CurrentPositionView(ListView):
     model = CurrentPosition
+    context_object_name = 'current_position_list'
     template_name = 'portfolio/index.html'
 
 

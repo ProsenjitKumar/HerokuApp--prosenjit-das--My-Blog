@@ -164,17 +164,20 @@
     {% endfor %}
 
         <!-- Currently Working -->
+    {% for object in current_position_list %}
     <section class="blog-area section">
 
         <div class="container">
             <div class="row">
 
                 <h4 style="padding-left: 47%"><strong>Current Position</strong></h4>
+                <p>{{ object.name }}</p>
 
             </div>
         </div>
 
     </section>
+    {% endfor %}
 
     <!-- Work Experience -->
     <section class="blog-area section">
