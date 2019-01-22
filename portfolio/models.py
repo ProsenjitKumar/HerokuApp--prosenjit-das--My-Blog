@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Gallery(models.Model):
-    image = models.ImageField(upload_to='gallery', blank=True)
+    image = models.ImageField(upload_to='gallery/', blank=True)
 
 
 class Category(models.Model):
