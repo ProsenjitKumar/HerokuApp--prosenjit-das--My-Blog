@@ -134,7 +134,7 @@
 
 
     <!-- Projects Section-->
-    {% for object in project_list %}
+    {% for object in projects_list %}
     <section class="blog-area section">
 
         <div class="container">
@@ -147,16 +147,6 @@
                         <a href="{{ object.source_code }}" target="_blank" class="btn-social btn-github"><i class="fa fa-github"></i></a>
                     </p>
                 </div><br>
-                <div>
-                    <p>
-                    2.	HumanityWatch: HumanityWatch is a Non-Profit organization. Several tasks 	they do. Blood donation is one of them. Here i have included that purpose also.
-                        Every blood donor can be donated through this site. First of all, they have to 	signup or as any general blood donor, they can join.
-                        All blood donor list will show one page and everybody can search a specific 	username, blood type etc and also can update their blood last donation date.
-                        In this website I’ve used Django for Back-end, Django default database SQLite3 	and Used a template for frontend.
-                        Source Code: <a href="https://github.com/ProsenjitKumar/HumanityWatch" target="_blank" class="btn-social btn-github"><i class="fa fa-github"></i></a>
-                </p>
-                </div>
-
             </div>
         </div>
 
@@ -170,8 +160,12 @@
         <div class="container">
             <div class="row">
 
-                <h4 style="padding-left: 47%"><strong>Current Position</strong></h4>
+                <h4 style="padding-left: 47%"><strong>Current Position</strong></h4><br>
                 <p>{{ object.name }}</p>
+                <p>{{ object.description }}</p>
+                <p>{{ object.website }}</p>
+                <p>{{ object.source_code }}</p>
+                <p>{{ object.updated }}</p>
 
             </div>
         </div>

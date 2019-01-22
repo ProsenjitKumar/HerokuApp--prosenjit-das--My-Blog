@@ -3,5 +3,5 @@ from portfolio.views import *
 
 
 urlpatterns = [
-    re_path('', PortfolioView.as_view(), name='portfolio'),
+    re_path('', PortfolioView.as_view(),  name='portfolio'),
 ]
