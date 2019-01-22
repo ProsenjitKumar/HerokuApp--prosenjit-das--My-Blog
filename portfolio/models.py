@@ -37,6 +37,9 @@ class CurrentPosition(models.Model):
     source_code = models.URLField(blank=True)
     updated = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self):
+        return self.name
+
 
 class Experience(models.Model):
     name = models.CharField(max_length=255)
@@ -44,6 +47,9 @@ class Experience(models.Model):
     website = models.URLField(blank=False)
     source_code = models.URLField(blank=True)
     updated = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
 
 
 class EducationalBackground(models.Model):

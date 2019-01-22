@@ -6,12 +6,13 @@
 
 {% block blog_content %}
 
-
+    {% for i in Portfolio.objects.all %}
     <!-- Bio Short Title-->
     <div>
         <label><img src="{% static 'blog/images/Prosenjit-Profile.jpg' %}" style="width: 250px;height: 350px" ></label>
-        <label><h4><strong>This is Prosenjit Das from Bangladesh as a Researcher like Python Developing with Software
-                            Architecture and it's my profession & passion.</strong></h4></label>
+        <label><h4><strong>
+            {{ i.headline }}
+        </strong></h4></label>
     </div>
 
     <!-- CSS link relation -->
@@ -43,9 +44,12 @@
                <h4 style="padding-left: 47%"><strong>My Goal</strong></h4>
                 <div>
                     <p>
-                        I'd like to become instrumental in helping my employer supersede the competition.
-                        I'm interested in applying my creative talents to achieving innovative results.
-                        My goal is to join a team that doesn't accept second-best status.
+
+
+                    <!-- -->
+
+
+
                     </p>
                 </div><br>
                 <div>
@@ -57,6 +61,8 @@
         </div>
 
     </section>
+
+    {% endfor %}
 
 
     <!-- Skills Section -->
