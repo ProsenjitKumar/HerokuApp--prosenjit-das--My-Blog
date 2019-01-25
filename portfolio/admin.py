@@ -59,7 +59,9 @@ admin.site.register(EducationalBackground, EducationalBackgroundAdmin)
 
 
 class GalleryAdmin(admin.ModelAdmin):
-    list_display = ['image']
+    list_display = ['name', 'image']
+    search_fields = ['name']
+    prepopulated_fields = {'slug':('name',)}
 
 
 admin.site.register(Gallery, GalleryAdmin)

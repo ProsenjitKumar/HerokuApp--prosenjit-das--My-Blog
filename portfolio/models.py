@@ -1,8 +1,22 @@
 from django.db import models
+from django.utils.text import slugify
 
 
 class Gallery(models.Model):
+    name = models.CharField(max_length=45)
     image = models.ImageField(upload_to='gallery/', blank=True)
+    summary = models.TextField()
+    slug = models.SlugField()
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.name)
+        super(Gallery, self).save(*args, **kwargs)
+
+    class Meta:
+        ordering = ['-name']
+
+    def __str__(self):
+        return self.name
 
 
 class Category(models.Model):
