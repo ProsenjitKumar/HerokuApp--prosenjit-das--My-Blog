@@ -43,7 +43,6 @@ class Projects(models.Model):
     source_code = models.URLField(blank=True)
     done = models.DateTimeField(auto_now=True)
     updated = models.DateTimeField(auto_now_add=True)
-    # slug = models.SlugField(prepopulate_from=('name',))
 
     def __str__(self):
         return self.name
@@ -93,6 +92,7 @@ class Portfolio(models.Model):
     image = models.ImageField(upload_to='portfolio/', blank=True)
     goal = models.TextField()
     updated = models.DateTimeField(auto_now_add=True)
+
 
     def __str__(self):
         return self.name

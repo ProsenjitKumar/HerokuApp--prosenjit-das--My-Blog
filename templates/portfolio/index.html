@@ -11,7 +11,7 @@
     {% for object in portfolio_list %}
     <!-- Bio Short Title-->
     <div>
-        <label><img src="{{ MEDIA_URL }} {{ object.image.url }}" style="width: 250px;height: 350px" ></label>
+        <label><img src="{% static 'blog/images/Prosenjit-Profile.jpg' %}" style="width: 250px;height: 350px" ></label>
         <label><h4><strong>{{ object.headline }}</strong></h4></label>
     </div>
 
